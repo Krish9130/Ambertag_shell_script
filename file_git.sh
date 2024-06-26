@@ -10,6 +10,10 @@ add(){
 add
 echo "file is added"
 
+echo "-----------------git status--------------"
+git status
+echo 
+
 echo "Enter message for commit the code: "
 read msg
 
@@ -21,6 +25,9 @@ commit(){
 commit
 echo "file is committed"
 
+echo "-----------------git status--------------"
+git status
+echo
 
 git push origin main
 
