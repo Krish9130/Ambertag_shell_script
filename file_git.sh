@@ -1,4 +1,5 @@
 #!/bin/bash
+git status
 
 echo "Enter file name: "
 read file_name
