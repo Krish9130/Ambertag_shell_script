@@ -28,7 +28,7 @@ echo "file is committed"
 echo "-----------------git status--------------"
 git status
 echo
-echo"Wait Loading next command"
+echo "Wait Loading next command"
 
 git push origin main
 
