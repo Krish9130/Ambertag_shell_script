@@ -1,13 +1,20 @@
 #!/bin/bash
 git status
 
-echo "Enter file name: "
-read file_name
-add(){
-	git add "$file_name"
-}
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <file1> <file2> <file3> ..."
+    exit 1
+fi
+for file in "$@"
+do
+    git add "$file"
+done
+#read -p "Enter file Name want to add: " file_name
+#add(){
+#	git add "$file_name"
+#}
 
-add
+#add
 echo "file is added"
 
 echo "-----------------git status--------------"
