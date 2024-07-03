@@ -8,3 +8,5 @@ sunil peon sales 13000
 satvik director purchase 80000
 Aditya Employee Devops 34800
 Bishwajit Employee Devops 37000
+Akash intern Devops 8000
+Rahul intern Devops 8000
