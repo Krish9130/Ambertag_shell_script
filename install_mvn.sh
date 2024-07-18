@@ -5,9 +5,23 @@ mvn_version="3.9.8"
 mvn_url="https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz"
 M2_HOME="/opt/maven"
 
-mvn_install() {
-echo "Installing Maven........"
+check_mvn_install() {
+	if command -v mvn &>/dev/null; then
+		echo "Maven is Already install"
+		return 0
+	else
+		echo "Maven is not install"
+		mvn_install
+		return 1 
+	fi
+}
 
+check_mvn_install
+
+
+
+mvn_install() {
+echo "installing maven......"
 #Downloading maven using url in /tmp dir
 wget $mvn_url -P /tmp
 
@@ -22,6 +36,5 @@ source ~/.bashrc
 
 }
 
-mvn_install 
 
 echo "maven installtion is completed"
