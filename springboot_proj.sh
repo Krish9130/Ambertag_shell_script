@@ -54,9 +54,23 @@ echo "pwd"
 pwd
 echo "################################################################################"
 
-./mvnw install
+mvn validate
+echo "##################Validation is completed#######################"
 
-echo "Project is running"
-./mvnw spring-boot:run
+mvn compile
+echo "##################    Compilation is completed   #######################"
+
+mvn test
+echo "##################   Test is completed  #############################"
+
+mvn package
+echo "###################   project is packaged   ##############################"
+
+cd /home/vboxuser/springbootmavendemo/target
+
+echo "########################    Project is running  ##########################3"
+java -jar springbootmavendem*.jar
+
+
 
 
