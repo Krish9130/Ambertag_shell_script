@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Threshold in percentage
-THRESHOLD=23
+THRESHOLD=50
 
 # Check disk usage for root (/)
 USAGE=$(df -h / | grep / | awk '{ print $5 }' | sed 's/%//g')
