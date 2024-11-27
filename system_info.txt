@@ -1,0 +1,58 @@
+Gathring System Information:
+Date Time: Wednesday 23 October 2024 12:45:19 AM IST
+Hostname: krish-ubuntu
+OS is used: Linux krish-ubuntu 5.15.0-122-generic #132~20.04.1-Ubuntu SMP Fri Aug 30 15:50:07 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Memory is used or free status:               total        used        free      shared  buff/cache   available
+Mem:           15Gi       6.2Gi       5.1Gi       963Mi       4.1Gi       7.9Gi
+Swap:         2.0Gi          0B       2.0Gi
+Disk Space: Filesystem      Size  Used Avail Use% Mounted on
+udev            7.7G     0  7.7G   0% /dev
+tmpfs           1.6G  2.1M  1.6G   1% /run
+/dev/sda4        84G   28G   52G  35% /
+tmpfs           7.7G  238M  7.5G   4% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.7G     0  7.7G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       56M   56M     0 100% /snap/core18/2846
+/dev/loop2       56M   56M     0 100% /snap/core18/2829
+/dev/loop3       64M   64M     0 100% /snap/core20/2318
+/dev/loop5       75M   75M     0 100% /snap/core22/1621
+/dev/loop4       64M   64M     0 100% /snap/core20/2379
+/dev/loop6      350M  350M     0 100% /snap/gnome-3-38-2004/143
+/dev/loop7       75M   75M     0 100% /snap/core22/1612
+/dev/loop8       92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/loop9       13M   13M     0 100% /snap/snap-store/1113
+/dev/loop11     347M  347M     0 100% /snap/gnome-3-38-2004/119
+/dev/loop10     506M  506M     0 100% /snap/gnome-42-2204/176
+/dev/loop12      50M   50M     0 100% /snap/snapd/18357
+/dev/loop14      39M   39M     0 100% /snap/snapd/21759
+/dev/loop13      13M   13M     0 100% /snap/snap-store/1216
+/dev/loop15     322M  322M     0 100% /snap/vlc/3777
+/dev/sda1        96M   45M   52M  47% /boot/efi
+tmpfs           1.6G   64K  1.6G   1% /run/user/1000
+Disk Usage: 8.0K	./.git/info
+56K	./.git/hooks
+8.0K	./.git/refs/remotes/origin
+12K	./.git/refs/remotes
+4.0K	./.git/refs/tags
+8.0K	./.git/refs/heads
+28K	./.git/refs
+4.0K	./.git/branches
+8.0K	./.git/objects/27
+40K	./.git/objects/pack
+4.0K	./.git/objects/info
+8.0K	./.git/objects/21
+8.0K	./.git/objects/52
+8.0K	./.git/objects/ce
+8.0K	./.git/objects/02
+8.0K	./.git/objects/cb
+8.0K	./.git/objects/90
+8.0K	./.git/objects/da
+112K	./.git/objects
+8.0K	./.git/logs/refs/remotes/origin
+12K	./.git/logs/refs/remotes
+8.0K	./.git/logs/refs/heads
+24K	./.git/logs/refs
+32K	./.git/logs
+272K	./.git
+428K	.
